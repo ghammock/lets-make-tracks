@@ -79,9 +79,6 @@ youtube-dl \
     "${url}" \
 || (echo -e "${RED}Error encountered while downloading ${url}.${RESET}"; exit 3)
 
-#url="$1"
-#tempfile=/tmp/make_tracks_20210818_163213.3317602.webm
-
 json_file="${tempfile%.*}.info.json"
 echo "Reading info file: ${json_file}"
 
@@ -126,6 +123,7 @@ for ((i = 0 ; i < ${num_tracks} ; i++)); do
 
     echo -en "\U1f3b6 Converting track ${track_number}"
 
+    # Argument order is important!  Generally, each argument affects the **next** file specifier.
     ffmpeg -v quiet -y \
         -i "${thumbnail_image_file}" \
         -ss ${start_time} \
@@ -154,8 +152,8 @@ for ((i = 0 ; i < ${num_tracks} ; i++)); do
     echo ""
 done
 
-#echo "Cleaning up..."
-#rm -f ${tempfile%.*}*
+echo "Cleaning up..."
+rm -f ${tempfile%.*}*
 
 echo ""
 echo -e "${GREEN}All tracks successfully converted.${RESET} \U1f91f \u2728"
