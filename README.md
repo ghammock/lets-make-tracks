@@ -1,5 +1,9 @@
 # Let's Make Tracks
 
+![GitHub](https://img.shields.io/github/license/ghammock/lets-make-tracks)
+![GitHub top language](https://img.shields.io/github/languages/top/ghammock/lets-make-tracks)
+![](https://img.shields.io/badge/platform-Linux%20%7C%20Bash-lightgrey)
+
 Quick and opinionated conversion of YouTube playlists to MP3 tracks.
 
 ## Description
