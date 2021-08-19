@@ -5,20 +5,22 @@ Quick and opinionated conversion of YouTube playlists to MP3 tracks.
 ## Description
 
 I used to work in a computer lab that was on an isolated network (i.e. no Internet).  The lab was also
-in the basement of an old Air Force building that basically served as a Faraday cage (i.e. cell/mobile
-service was almost non-existent).
+in the basement of an old Air Force building that basically served as a Faraday cage, so cell phone/mobile
+service was almost non-existent.  In other words, the only music I had for the day was the music that
+I already had on my phone.
 
 I work best with music, and I wanted a way to take some great YouTube playlists with me into the lab.
 Enter "Let's Make Tracks".  It's a phrase my mom used to say meaning, "let's go/leave/get out of
-here", where *tracks* referred to the trail of footprints egressing from the location.  But, I
-like that *tracks* can also refer to a musical subdivision of an album or a playlist.  So here using,
-"Let's make tracks" is literally making musical tracks from a YouTube playlist.
+here", where *tracks* referred to the figurative trail of footprints left behind after leaving the
+place.  But, I like that *tracks* can also refer to a musical subdivision of an album or a playlist.
+So, here, using "Let's make tracks" is saying something like "let us begin making musical subdivisions
+from a provided, larger playlist".
 
 ## Disclaimer
 
-I'm an avid music consumer and I buy music from the artists whose playlists I frequent (usually on
-[bandcamp](https://bandcamp.com)).  I also listen to their playlists on ad-supported YouTube and
-soundcloud.  I say this to emphasize that I don't condone using this script to deprive anyone of
+I'm an avid music consumer, and I buy music from the artists whose playlists I frequent (usually
+using [bandcamp](https://bandcamp.com)).  I also listen to their playlists on ad-supported YouTube
+and soundcloud.  I say this to emphasize that I don't condone using this script to deprive anyone of
 their due royalties.  Don't be "that guy".  Nobody likes that guy.
 
 ## Requirements

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #
+# A quick and opinionated wrapper for youtube-dl and ffmpeg to convert YouTube playlists into MP3 tracks.
+#
 # Copyright (c) 2021, Gary Hammock
 # SPDX-FileCopyrightText: 2021 Gary Hammock
 # SPDX-License-Identifier: MIT
